@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 11%, 12%)
+}
+
+  .resume-container{  
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .resume-header{
+    padding: 10px 15px;
+    display: flex;
+    background-color: #6291EE;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+
+  p{
+      letter-spacing: 0.09em;
+      line-height: 1.2em;
+  }
+
+  .resume-name{
+    margin-left: 15px;
+    margin-top: 100px;
+  }
+
+  .resume-body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  li{
+      line-height: 1.5em;
+  }
+
+  
+  .profile{
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+
+  .one-info, .two-info{
+    padding: 10px 9px;
+    margin: 10px 0px; 
+  }
+
+  .two-info{
+    border-left: 2px solid rgba(89, 139, 235, 0.32);
+  }
+
+  h2{
+    letter-spacing: 0.1em;
+    color: #B0ABAB;
+  }
+
+   
+  @media screen and (max-width: 450px) {
+    .resume-name{
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+    .two-info{
+      border: none;
+    }
+  
+    h2{
+      width: 260px;
+    }
+  
